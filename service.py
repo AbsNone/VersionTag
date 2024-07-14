@@ -15,3 +15,4 @@ class Face:
 @dataclass
 class Photo:
     name: FileName
+    faces: list[Face]
